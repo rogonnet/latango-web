@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Latango.com</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav has-shadow">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item">
+                    <figure class="image is-48x48">
+                        <img src="/img/latango.jpg" alt="Latango logo">
+                    </figure>
+                </a>
+                <a href="index.html" class="nav-item is-tab is-hidden-mobile is-active"><i class="fa fa-home"></i>&nbsp;Home</a>
+                <a href="about_us.html" class="nav-item is-tab is-hidden-mobile"><i class="fa fa-info-circle"></i>&nbsp;About Us</a>
+            </div>
+            <span class="nav-toggle" id="nav-toggle nav-menu" onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <!-- item are hidden when in laptop screen -->
+            <div class="nav-right nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-item is-tab is-hidden-tablet is-active"><i class="fa fa-home"></i>&nbsp;Home</a>
+                <a href="about_us.html" class="nav-item is-tab is-hidden-tablet"><i class="fa fa-info-circle"></i>&nbsp;About Us</a>
+                <a href="contact_us.html" class="nav-item is-tab is-hidden-tablet"><i class="fa fa-address-book"></i>&nbsp;Contact Us</a>
+                <a href="map.html" class="nav-item is-tab is-hidden-tablet"><i class="fa fa-map-marker"></i>&nbsp;Map</a>
+                <!-- is hidden when in mobile screen -->
+                <a href="map.html" class="nav-item is-tab is-hidden-mobile"><i class="fa fa-map-marker"></i>&nbsp;Map</a>
+                <!-- is hidden when in mobile screen -->
+                <a href="contact_us.html" class="nav-item is-tab is-hidden-mobile"><i class="fa fa-address-book"></i>&nbsp;Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.1864249949354!2d116.10718931472297!3d5.969043895676362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b69152783fb4d%3A0x17e4714b2fbbc2bf!2sLa+Tango+Dance+Club!5e0!3m2!1sen!2smy!4v1490255379526"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+</body>
+
+</html>
