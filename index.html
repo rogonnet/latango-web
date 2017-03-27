@@ -10,15 +10,148 @@
 </head>
 
 <body>
-    <div id="header"></div>
-    <div id="banner"></div>
-    <div class="container">
+    <nav class="nav has-shadow">
+        <div class="container" id="index">
+            <div class="nav-left">
+                <a class="nav-item">
+                    <figure class="image is-48x48">
+                        <img src="img/latango.jpg" alt="Latango logo">
+                    </figure>
+                </a>
+                <a href="#index" class="nav-item is-tab is-hidden-mobile is-active"><i class="fa fa-home"></i>&nbsp;Home</a>
+                <a href="#about_us" class="nav-item is-tab is-hidden-mobile"><i class="fa fa-info-circle"></i>&nbsp;About Us</a>
+            </div>
+            <span class="nav-toggle" id="nav-toggle nav-menu" onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <!-- items are hidden when in laptop screen -->
+            <div class="nav-right nav-menu" id="nav-menu">
+                <a href="#index" class="nav-item is-tab is-hidden-tablet is-active"><i class="fa fa-home"></i>&nbsp;Home</a>
+                <a href="#about_us" class="nav-item is-tab is-hidden-tablet"><i class="fa fa-info-circle"></i>&nbsp;About Us</a>
+                <a href="#contact_us" class="nav-item is-tab is-hidden-tablet"><i class="fa fa-address-book"></i>&nbsp;Contact Us</a>
+                <a href="#map" class="nav-item is-tab is-hidden-tablet"><i class="fa fa-map-marker"></i>&nbsp;Map</a>
+                <!-- is hidden when in mobile screen -->
+                <a href="#map" class="nav-item is-tab is-hidden-mobile"><i class="fa fa-map-marker"></i>&nbsp;Map</a>
+                <!-- is hidden when in mobile screen -->
+                <a href="#contact_us" class="nav-item is-tab is-hidden-mobile"><i class="fa fa-address-book"></i>&nbsp;Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    <section class="hero is-primary is-medium header-image">
+        <div class="hero-head">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title is-2">
+                        Banner goes here by hero
+                    </h1>
+                    <h2 class="subtitle is-5">
+                        size width=2000, heght=700 ,quality=80
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/banner-->
+    </br>
 
+    <!-- about us -->
+    <section class="section" id="about_us">
+        <div class="container">
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-64x64">
+                            <img src="img/latango.jpg" alt="image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <span class="tag is-info">About Us</span>
+                                <br>
+                                <h6 class="subtitle">
+                                    Hi Awesome people!! Dance with me studio offer TANGO WORKSHOP this upcoming December. Grab this awesome opportunity to experience Life like Tango... sad, sensual, sexy, violent and quiet. Because great dancers are not great because of their technique;
+                                    they are great because of their passion. Lets have some fun & don't missed the only Tango workshop in Kota Kinabalu, Sabah. For upcoming updates Please follow me at La'Tango Kotakinabalu. Feels free to Message or email
+                                    to latangokotakinabalu@gmail.com for and inquiry.
+                                </h6>
+                            </p>
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--/about us-->
+
+    <!-- contact us -->
+    <div class="columns">
+        <div class="column">
+            <section class="section" id="contact_us">
+                <div class="container">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img src="img/latango.jpg" alt="image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="tag is-primary is-medium">Our Contact</span>
+                                        <h5 class="title"><span class="tag is-info">Address:-</span>
+                                            <h6 class="subtitle">Lot 5,grd flr,blk b,dbkk no B-1-0,iramanis Center 88450 Kota Kinabalu.
+                                            </h6>
+                                        </h5>
+                                        <br/>
+                                        <h5 class="title"><span class="tag is-info">Contact number:-</span>
+                                            <h6 class="subtitle">
+                                                - 088-380050 / 08838973
+                                            </h6>
+                                        </h5>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
-    <div id="footer"></div>
+    <!--/ contact us -->
+
+    <!-- map -->
+    <section class="section" id="map">
+        <div class="container">
+            <span class="tag is-primary is-medium">Reach our location here</span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.1864249949354!2d116.10718931472297!3d5.969043895676362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b69152783fb4d%3A0x17e4714b2fbbc2bf!2sLa+Tango+Dance+Club!5e0!3m2!1sen!2smy!4v1490255379526"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--/ map -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Dance Club</strong> by <a href="#">&copy; La Tango Dance Club 2017.</a> Visit our facebook <a href="https://www.facebook.com/pg/raysmk24/photos/?tab=album&album_id=201549439877347">La Tango Dance Club</a>.
+                </p>
+                <p>
+                    <a class="icon" href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer -->
 </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/style.js"></script>
 
 </html>
