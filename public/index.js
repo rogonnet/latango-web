@@ -15,5 +15,5 @@ app.get('/', function(req, res) {
 // Listen for requests
 var server = app.listen(app.get('port'), function() {
     var port = server.address().port;
-    console.log('Running on port ' + port);
+    console.log('port ' + port + ' Runnning on http://localhost:8000');
 });
