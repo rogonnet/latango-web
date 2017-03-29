@@ -6,3 +6,12 @@
 .icon-space {
     margin-bottom: 5em;
 }
+
+.bg-img {
+    background-image: url('../img/bg-ground.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
