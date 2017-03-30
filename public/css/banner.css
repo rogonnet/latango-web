@@ -4,12 +4,14 @@ body{
 }
 
 .header-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.79)), url('../img/dance_club_banner.png');
-    background-repeat: no-repeat;
 }
 
 .icon-space {
     margin-bottom: 3em;
+}
+
+.nav{
+  background-color: #000003 !important;
 }
 
 .bg-img {

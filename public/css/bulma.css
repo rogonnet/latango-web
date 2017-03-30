@@ -3926,7 +3926,7 @@ a.nav-item.is-tab.is-active {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  background-color: white;
+  background-color: #000003;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
