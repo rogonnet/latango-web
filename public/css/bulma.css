@@ -6603,7 +6603,9 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: whitesmoke;
+  background-color: #000003;
+  font-size: 15pt;
+  color: #fff;
   padding: 3rem 1.5rem 6rem;
 }
 /*# sourceMappingURL=bulma.css.map */

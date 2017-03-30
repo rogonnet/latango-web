@@ -1,3 +1,8 @@
+body{
+  font-family: "Open Sans", sans-serif;  
+  font-size: 1.2em;
+}
+
 .header-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.79)), url('../img/dance_club_banner.png');
     background-repeat: no-repeat;
@@ -18,4 +23,12 @@
 
 .fa-fbblue {
     color: #496799;
+}
+
+.copyright {
+  font-size: small;
+}
+
+.facebook {
+  text-align:center;
 }
