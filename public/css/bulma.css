@@ -5698,7 +5698,7 @@ label.panel-block:hover {
           flex-grow: 1;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  padding: 3rem 1.5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 @media screen and (min-width: 1192px) {
@@ -6555,15 +6555,15 @@ label.panel-block:hover {
 
 @media screen and (min-width: 769px) {
   .hero.is-medium .hero-body {
-    padding-bottom: 9rem;
-    padding-top: 9rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
 }
 
 @media screen and (min-width: 769px) {
   .hero.is-large .hero-body {
-    padding-bottom: 18rem;
-    padding-top: 18rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 

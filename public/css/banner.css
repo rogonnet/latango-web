@@ -1,6 +1,6 @@
 body{
-  font-family: "Open Sans", sans-serif;  
-  font-size: 1.2em;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.3em;
 }
 
 .header-image {
@@ -14,13 +14,33 @@ body{
   background-color: #000003 !important;
 }
 
+.nav-item{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 1.2em;
+}
+
 .bg-img {
-    /*background-image: url('../img/bg-ground.png');*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #4F854B;
+    background-color: #182917;
+}
+
+.bg-img .title, .bg-img p {
+    color: white !important;
+}
+
+.services {
+  background-color: #999;
+  padding-bottom: 10px;
+}
+
+figcaption {
+  padding-top: 0.5em;
+  width: 100%;
+  font-size: 1.3rem;
+  color: black;
 }
 
 .fa-fbblue {
@@ -28,9 +48,40 @@ body{
 }
 
 .copyright {
-  font-size: small;
+  margin-top: 4em;
+  color: #999;
 }
 
 .facebook {
   text-align:center;
+}
+
+.logo{
+  padding: 1em;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.address {
+  font-size: 1.4rem;
+}
+
+.social{
+  text-align: center;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 1.5em;
+  color: white;
+  padding: 3em;
+}
+
+.actioncall{
+  text-align:center;
+  padding: 1em;
+}
+
+.actioncall .button {
+  padding:0.8em; 
+  width: 250px;
+  border: none;
+  font-size: 1.0em;
+  border-radius: 0.1em;
 }
