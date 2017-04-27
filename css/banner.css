@@ -53,6 +53,7 @@ figcaption {
 
 .facebook {
   text-align:center;
+  color: white;
 }
 
 .logo{
@@ -62,6 +63,10 @@ figcaption {
 
 .address {
   font-size: 1.4rem;
+}
+
+.address h5 {
+  color: white;
 }
 
 .social{
@@ -84,3 +89,4 @@ figcaption {
   font-size: 1.0em;
   border-radius: 0.1em;
 }
+
